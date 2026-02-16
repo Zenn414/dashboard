@@ -7,7 +7,7 @@
 
    html {
        font-family: 'Poppins';
-       font-size: 62.5%;
+       /* font-size: 62.5%; */
 
    }
 
@@ -40,15 +40,15 @@
    }
 
    .card li .label {
-       font-size: 1.6rem;
-   }
-
-   .card ul li span {
        font-size: 1.4rem;
    }
 
+   .card ul li span {
+       font-size: 1.2rem;
+   }
+
    .card button {
-       font-size: 1.6rem;
+       font-size: 1.4rem;
    }
    .navbar span {
     font-size: 2rem;
@@ -62,9 +62,9 @@
     flex-shrink: 0;
     display: block  ;
 }
-.sidebar li a{
+/* .sidebar li a{
     font-size: 1.6rem !important;
-}
+} */
 
 
 
@@ -84,11 +84,11 @@
    }
 
    .nav-bottom li a {
-       font-size: 1.2rem;
+       font-size: 1.4rem;
    }
 
    .nav-bottom i {
-       font-size: 2.4rem;
+       font-size: 2.8rem;
    }
    @media screen and (max-width:768px) {
     html{
@@ -98,6 +98,6 @@
         display: none !important;
     }
     .nav-bottom{
-        display: block;
+        display: flex;
     }
 }
