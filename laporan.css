@@ -36,9 +36,9 @@ body {
     flex-shrink: 0;
 }
 
-.sidebar li a {
+/* .sidebar li a {
     font-size: 1rem;
-}
+} */
 
 /* Main */
 .main .table {
@@ -48,7 +48,7 @@ body {
 /* .table thead tr {
     font-size: 1.4rem;
 } */
-.table tbody tr{
+.table tbody tr {
     font-size: 1.2rem;
 }
 
@@ -84,24 +84,24 @@ body {
 }
 
 .nav-bottom li a {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .nav-bottom i {
-    font-size: 2.8rem;
+    font-size: 2rem;
 }
 
 
 @media screen and (max-width:992px) {
-     html {
+    /* html {
         font-size: 85%;
-    }
+    } */
 }
 
 @media screen and (max-width:768px) {
-    html{
+    /* html {
         font-size: 70%;
-    }
+    } */
 
     .sidebar {
         display: none;
@@ -113,8 +113,14 @@ body {
 }
 
 @media screen and (max-width:576px) {
-    html {
+    /* html {
         font-size: 62.5%;
+    } */
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 85%;
     }
 }
 
