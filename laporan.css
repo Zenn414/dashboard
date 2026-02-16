@@ -41,13 +41,13 @@ body {
 }
 
 /* Main */
-/* .main .table {
+.main .table {
     width: 100% !important;
-} */
-
-.table thead tr {
-    font-size: 1.4rem;
 }
+
+/* .table thead tr {
+    font-size: 1.4rem;
+} */
 .table tbody tr{
     font-size: 1.2rem;
 }
@@ -92,15 +92,15 @@ body {
 }
 
 
-@media screen and (max-width:912px) {
-    /* html {
-        font-size: 80%;
-    } */
+@media screen and (max-width:992px) {
+     html {
+        font-size: 85%;
+    }
 }
 
 @media screen and (max-width:768px) {
-    html {
-        font-size: 62.5%;
+    html{
+        font-size: 70%;
     }
 
     .sidebar {
@@ -113,9 +113,9 @@ body {
 }
 
 @media screen and (max-width:576px) {
-    /* html {
-        font-size: 70.5%;
-    } */
+    html {
+        font-size: 62.5%;
+    }
 }
 
 /* @media screen and (max-width:485px) {
