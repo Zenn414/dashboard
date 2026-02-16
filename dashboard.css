@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
 :root {
     --main-color: #1d263b;
     --second-color: #3FA9FF;
@@ -6,9 +7,12 @@
     --font-header: 3.2rem;
 }
 
+html {
+    /* font-size: 62.5%; */
+}
 
 body {
-    
+
     font-family: 'Poppins';
 }
 
@@ -17,6 +21,7 @@ body {
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Header */
 
 
@@ -29,18 +34,17 @@ body {
     left: 0;
     flex-shrink: 0;
 }
-.sidebar li a{
-    font-size: 1.2rem;
-}
+
+/* .sidebar li a {
+    font-size: 1.6rem;
+} */
 
 
-.chart {
-    margin-bottom: 1rem;
-}
 /* Card */
 .wrap-card {
     height: auto;
 }
+
 .card {
     width: 24rem;
     height: auto;
@@ -50,6 +54,7 @@ body {
     border-radius: 8px;
 
 }
+
 /* Nav bottom(Mobile) */
 .nav-bottom {
     background-color: white !important;
@@ -65,41 +70,12 @@ body {
 }
 
 .nav-bottom li a {
-            font-size: 1.4rem;
-        }
-
-        .nav-bottom i {
-            font-size: 2.4rem;
-        }
-
-
-@media screen and (max-width:912px) {
-    html {
-        font-size: 80%;
-    }
+    font-size: 1.4rem;
 }
 
-@media screen and (max-width:768px) {
-    html {
-        font-size: 65%;
-    }
-
-  
+.nav-bottom i {
+    font-size: 2.4rem;
 }
-
-@media screen and (max-width:576px) {
-    html {
-        font-size: 70.5%;
-    }
-}
-
-
-
-    .table tbody .img img {
-        width: 90% !important;
-
-    }
-
 
 
 @media screen and (max-width:1200px) {
@@ -112,8 +88,11 @@ body {
 
 
 @media screen and (max-width:992px) {
-    html {
+    /* html{
         font-size: 14px;
+    } */
+   html {
+        font-size: 85%;
     }
 
     .card {
@@ -125,56 +104,59 @@ body {
         border-radius: 8px;
 
     }
-    .sidebar{
+
+    .sidebar {
         width: 14rem !important;
     }
 }
 
-.wrap h1 {
-    font-size: 3rem;
-}
 
-.wrap1 {
-    background-color: #F87171 !important;
-}
+    .wrap1 {
+        background-color: #F87171 !important;
+    }
 
-.wrap2 {
-    background-color: #FBBF24 !important;
-}
+    .wrap2 {
+        background-color: #FBBF24 !important;
+    }
 
-.wrap3 {
-    background-color: #4ADE80 !important;
-}
+    .wrap3 {
+        background-color: #4ADE80 !important;
+    }
 
-.wrap4 {
-    background-color: #A78BFA !important;
-}
+    .wrap4 {
+        background-color: #A78BFA !important;
+    }
 
-.chart {
-    width: 100%;
-    height: 400px;
-}
+    .chart {
+        width: 100%;
+        height: 400px;
+    }
 
-.chart canvas {
-    width: 100% !important;
-    height: 100% !important;
-}
+    .chart canvas {
+        width: 100% !important;
+        height: 100% !important;
+    }
 
 @media screen and (max-width:768px) {
+    html{
+        font-size: 70%;
+    }
     .chart {
         height: 300px;
     }
-    .sidebar{
-        width: 12rem !important;
+
+    .sidebar {
+        width: 13rem !important;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
 }
 
 @media screen and (max-width:576px) {
     html {
-        font-size: 70.5%;
+        font-size: 62.5%;
     }
 
     .chart {
@@ -192,10 +174,5 @@ body {
 
     .nav-bottom {
         display: flex;
-    }
-
-    .wrap-card {
-        /* height: 80vh;
-    margin-bottom: 5rem     ; */
     }
 }
