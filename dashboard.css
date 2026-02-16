@@ -92,7 +92,9 @@ body {
         font-size: 14px;
     } */
 
-
+    .sidebar {
+        width: 14rem !important;
+    }
     .card {
         width: 19rem;
         height: auto;
@@ -101,10 +103,6 @@ body {
         padding: 20px;
         border-radius: 8px;
 
-    }
-
-    .sidebar {
-        width: 14rem !important;
     }
 }
 
@@ -145,7 +143,11 @@ body {
     }
 
     .sidebar {
-        width: 13rem !important;
+        display: none;
+    }
+
+    .nav-bottom {
+        display: flex;
     }
 
     .card {
@@ -167,13 +169,7 @@ body {
         width: 100%;
     }
 
-    .sidebar {
-        display: none;
-    }
-
-    .nav-bottom {
-        display: flex;
-    }
+    
 }
 
 @media screen and (max-width:400px) {
