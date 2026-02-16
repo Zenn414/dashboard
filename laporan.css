@@ -43,6 +43,7 @@
     /* Main */
     .content{
         overflow-x: hidden;
+        min-height: 100vh;
     }
     .main .table {
         width: 100% !important;
